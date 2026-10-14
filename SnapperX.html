@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapperX - Cameras and Accessories</title>
+</head>
+<body>
+    <header id="top">
+        <!-- Logo/Search/Cart -->
+        <table width="100%" border="0">
+            <tr>
+                <td align="left">
+                    <h1>
+                        <img src="snapperx.jpg" alt="SnapperX Logo" width="50" height="50" align="middle"> 
+                        SnapperX
+                    </h1>
+                </td>
+                <td align="center">
+                    <form action="#" method="get">
+                        <input type="search" name="search_query" placeholder="Search products...">
+                        <button type="submit">Search</button>
+                    </form>
+                </td>
+                <td align="right">
+                    <a href="#cart">Cart (2)</a>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Boxed Navigation layout -->
+        <nav>
+            <table width="100%" border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td align="center"><a href="#home">Home</a></td>
+                    <td align="center"><a href="#brands">Brands</a></td>
+                    <td align="center"><a href="#cameras">Cameras</a></td>
+                    <td align="center"><a href="#lenses">Lenses</a></td>
+                    <td align="center"><a href="#accessories">Camera Accessories</a></td>
+                    <td align="center"><a href="#checkout">Checkout</a></td>
+                </tr>
+            </table>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <!-- HOME / HERO BANNER SECTION -->
+        <section id="home">
+            <table width="100%" border="1" cellpadding="20" cellspacing="0">
+                <tr>
+                    <td align="center" width="50%">
+                        <h3>Cameras Section</h3>
+                        <img src="nikond.jpg" alt="New and Second-hand Cameras" width="40%" height="150">
+                        <p><a href="#cameras">Browse Cameras</a></p>
+                    </td>
+                    <td align="center" width="50%">
+                        <h3>Lens Showcase</h3>
+                        <img src="cameralens.jpg" alt="Lenses, Zoom, Prime" width="40%" height="150">
+                        <p><a href="#lenses">Explore Lenses</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" width="50%">
+                        <h3>Promotional Deals</h3>
+                        <img src="sale.jpg" alt="Huge Sales, Discounts" width="20%" height="150">
+                        <p><strong>Exclusive Savings Event!</strong></p>
+                    </td>
+                    <td align="center" width="50%">
+                        <h3>Camera Accessories</h3>
+                        <img src="cameraacc.jpg" alt="Affordable Gear & Essentials" width="30%" height="150">
+                        <p><a href="#accessories">Shop Accessories</a></p>
+                    </td>
+                </tr>
+            </table>
+            
+            <br>
+            <h2>Welcome to SnapperX</h2>
+            <p>Your ultimate photography hub where we sell brand new cameras, inspected second-hand equipment, lenses, and indispensable camera accessories—all at incredibly affordable prices! Discover limited items and rare gear today.</p>
+            <a href="#cameras"><button type="button">Shop Now</button></a>
+            <hr>
+        </section>
+
+        <!-- BRANDS SECTION with Photos -->
+        <section id="brands">
+            <h2>Brands</h2>
+            <table border="1" cellpadding="10" cellspacing="5" width="100%">
+                <tr>
+                    <td align="center">
+                        <img src="sony.png" alt="Sony Logo" width="100" height="60"><br>
+                        <strong>SONY</strong>
+                    </td>
+                    <td align="center">
+                        <img src="canon.png" alt="Canon Logo" width="100" height="60"><br>
+                        <strong>CANON</strong>
+                    </td>
+                    <td align="center">
+                        <img src="leicalogo.png" alt="Leica Logo" width="100" height="60"><br>
+                        <strong>LEICA</strong>
+                    </td>
+                    <td align="center">
+                        <img src="nikon.jpg" alt="Nikon Logo" width="100" height="60"><br>
+                        <strong>NIKON</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <img src="fujifilm.jpg"Fujifilm Logo" width="100" height="60"><br>
+                        <strong>FUJIFILM</strong>
+                    </td>
+                    <td align="center">
+                        <img src="panasonic.png" alt="Panasonic Logo" width="100" height="60"><br>
+                        <strong>PANASONIC</strong>
+                    </td>
+                    <td align="center">
+                        <img src="olympus.jpg" alt="Olympus Logo" width="100" height="60"><br>
+                        <strong>OLYMPUS</strong>
+                    </td>
+                    <td align="center">
+                        <img src="pentax.png" alt="Pentax Logo" width="100" height="60"><br>
+                        <strong>PENTAX</strong>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </section>
+
+        <!-- FILTERS -->
+        <section id="filters">
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><h2>Filters ➔</h2></td>
+                    <td>
+                        <form action="#" method="get">
+                            <input type="checkbox" id="f1" name="filter" value="bestseller">
+                            <label for="f1">Best-sellers</label> | 
+                            
+                            <input type="checkbox" id="f2" name="filter" value="lowhigh">
+                            <label for="f2">Low-Expensive</label> | 
+                            
+                            <input type="checkbox" id="f3" name="filter" value="featured">
+                            <label for="f3">Featured</label> | 
+
+                            <input type="checkbox" id="f4" name="filter" value="new">
+                            <label for="f4">Brand New</label> | 
+                            
+                            <input type="checkbox" id="f5" name="filter" value="used">
+                            <label for="f5">Second-Hand</label> | 
+                            
+                            <input type="checkbox" id="f6" name="filter" value="limited">
+                            <label for="f6">Limited Edition</label> | 
+                            
+                            <input type="checkbox" id="f7" name="filter" value="mirrorless">
+                            <label for="f7">Mirrorless</label> | 
+                            
+                            <input type="checkbox" id="f8" name="filter" value="dslr">
+                            <label for="f8">DSLR</label>
+                            
+                            <br><br>
+                            <button type="submit">Apply Filters</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <!-- PRODUCT SECTION 1: CAMERAS (Variable models with photos, descriptions, and prices) -->
+        <section id="cameras">
+            <h2>Cameras</h2>
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <!-- Row 1: Variable Camera Models -->
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="sonya7.jpg" alt="Sony Alpha A7 IV mirrorless" width="200" height="130"><br>
+                        <h3>📷 Sony Alpha A7 IV</h3>
+                        <p><strong>[Best Seller - Mirrorless]</strong> Brand new full-frame 33MP hybrid beast.</p>
+                        <p><strong>₱140,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="canoneosr6.jpg" alt="Canon EOS R6 Mark II mirrorless" width="200" height="130"><br>
+                        <h3>📸 Canon EOS R6 II</h3>
+                        <p><strong>[59% OFF! - Second-Hand]</strong> Gently used mirrorless. High-speed 40 fps capture.</p>
+                        <p><s>₱195,000.00</s> <strong>₱80,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="leicaq22.jpg" alt="Leica Q2 point and shoot" width="200" height="130"><br>
+                        <h3>📸 Leica Q2 Signature</h3>
+                        <p><strong>[LIMITED STOCK! - Compact]</strong> Rare brand-new premium fixed lens with 47MP sensor.</p>
+                        <p><strong>₱300,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+                <!-- Row 2: DSLR, Retro, and Micro Four Thirds Models -->
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="nikond.jpg" alt="Nikon D850 DSLR Camera" width="200" height="130"><br>
+                        <h3>📸 Nikon D850</h3>
+                        <p><strong>[DSLR - Second-Hand]</strong> High-resolution 45.7MP camera. Perfect condition.</p>
+                        <p><strong>₱95,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="fujifilmcam.jpg" alt="Fujifilm X-T5 Mirrorless Retro Camera" width="200" height="130"><br>
+                        <h3>📷 Fujifilm X-T5</h3>
+                        <p><strong>[Retro - Brand New]</strong> Compact APS-C with dial operations & film simulations.</p>
+                        <p><strong>₱109,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="panasoniclumix.jpg" alt="Panasonic GH6 Video Camera" width="200" height="130"><br>
+                        <h3>📸 Panasonic Lumix GH6</h3>
+                        <p><strong>[Video Hybrid - Second-Hand]</strong> Cinematic workhorse, includes battery and rig accessories.</p>
+                        <p><strong>₱65,000.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <h3>Featured Video & Motion Capture Photos</h3>
+            <figure>
+                <img src="sonybg.jpg" alt="In-action handheld Capture with Sony" width="300" height="200">
+                <figcaption><strong>Sony In-Action</strong> - Handheld videography & street shots.</figcaption>
+            </figure>
+            <figure>
+                <img src="canonbg.jpg" alt="Low light focus photo Canon" width="300" height="200">
+                <figcaption><strong>Canon Low-Light</strong> - Demonstrating high speed focus.</figcaption>
+            </figure>
+            <figure>
+                <img src="leicabgf.jpg" alt="Fine Art with Leica Q2" width="300" height="200">
+                <figcaption><strong>Leica Artistic View</strong> - Intimate, street photography.</figcaption>
+            </figure>
+            <hr>
+        </section>
+
+        <!-- PRODUCT SECTION 2: LENSES (Expanded with extra placeholders) -->
+        <section id="lenses">
+            <h2>Lenses</h2>
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <!-- Row 1 -->
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="sonylens.png" alt="Sony 50mm f/1.8 Prime Lens" width="150" height="100"><br>
+                        <h3>🔍 Sony 50mm f/1.8</h3>
+                        <p>Excellent low-cost portrait lens.</p>
+                        <p><strong>₱15,000.00</strong></p>
+                        <label for="sony-mount">Mount: </label>
+                        <select id="sony-mount">
+                            <option>E-Mount</option>
+                            <option>FE-Mount</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="canonlens.jpg" alt="Canon RF 24-70mm f/2.8 L Zoom Lens" width="150" height="100"><br>
+                        <h3>🔍 Canon RF 24-70mm f/2.8 L</h3>
+                        <p>Professional workhorse standard zoom lens.</p>
+                        <p><strong>₱130,000.00</strong></p>
+                        <label for="canon-mount">Mount: </label>
+                        <select id="canon-mount">
+                            <option>RF-Mount</option>
+                            <option>EF-Mount (with adapter)</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="leicalens.jpg" alt="Leica Summicron 35mm Rangefinder Lens" width="150" height="100"><br>
+                        <h3>🔍 Leica Summicron-M 35mm</h3>
+                        <p>Extremely compact standard prime lens for street work.</p>
+                        <p><strong>₱180,000.00</strong></p>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+                <!-- Row 2: Expanded Lenses -->
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="nikonlens.jpg" alt="Nikon AF-S 85mm f/1.8G portrait Lens" width="150" height="100"><br>
+                        <h3>🔍 Nikon 85mm f/1.8G</h3>
+                        <p><strong>[Second-Hand]</strong> Vintage portrait master with creamy bokeh.</p>
+                        <p><strong>₱24,500.00</strong></p>
+                        <label for="nikon-mount">Mount: </label>
+                        <select id="nikon-mount">
+                            <option>F-Mount</option>
+                            <option>Z-Mount (with adapter)</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="fujifilmlens.jpg" alt="Fujifilm XF 18-55mm f/2.8-4 Zoom" width="150" height="100"><br>
+                        <h3>🔍 Fujifilm XF 18-55mm Zoom</h3>
+                        <p>Highly versatile and compact standard kit zoom.</p>
+                        <p><strong>₱19,000.00</strong></p>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="sigmalens.jpg" alt="Sigma 70-200mm telephoto zoom" width="150" height="100"><br>
+                        <h3>🔍 Sigma 70-200mm f/2.8 Sport</h3>
+                        <p>High-end telephoto zoom lens. Fully brand new.</p>
+                        <p><strong>₱78,000.00</strong></p>
+                        <label for="sigma-mount">Mount: </label>
+                        <select id="sigma-mount">
+                            <option>Canon EF</option>
+                            <option>Nikon F</option>
+                            <option>Sony E</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <!-- PRODUCT SECTION 3: CAMERA ACCESSORIES -->
+        <section id="accessories">
+            <h2>Camera Accessories</h2>
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <!-- Row 1 -->
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="camreabag.jpg" alt="Rugged outdoor water resistant backpack" width="150" height="100"><br>
+                        <h3>🎒 Camera Backpack</h3>
+                        <p>Shockproof, padded water-resistant gear storage.</p>
+                        <p><strong>₱4,500.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="trpod.jpg" alt="Lightweight aluminum compact tripod" width="150" height="100"><br>
+                        <h3>🔭 Aluminum Tripod</h3>
+                        <p>Lightweight 4-section tripod with ball head.</p>
+                        <p><strong>₱3,200.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="battery.jpg" alt="Rechargeable camera battery spares" width="150" height="100"><br>
+                        <h3>🔋 Extra Battery Pack</h3>
+                        <p>Stay powered on-the-go. Multiple fit options available.</p>
+                        <p><strong>₱2,500.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" width="33%">
+                        <img src="wriststrap.jpg" alt="Paracord custom DSLR/mirrorless neck strap" width="150" height="100"><br>
+                        <h3>🧵 Vintage Neck/Wrist Strap</h3>
+                        <p>High-tensile braided strap with leather connectors.</p>
+                        <p><strong>₱850.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="cleaningkit.jpg" alt="Deluxe brush blower and fluid camera cleaner pack" width="150" height="100"><br>
+                        <h3>🧹 Deluxe Lens Cleaning Kit</h3>
+                        <p>Dust blower, micro-fiber cloths, brush, and lens fluid.</p>
+                        <p><strong>₱450.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td align="center" width="33%">
+                        <img src="sdcard.jpg" alt="High speed SD card 128GB digital memory card" width="150" height="100"><br>
+                        <h3>💾 128GB High-Speed SD Card</h3>
+                        <p>Write speeds up to 170MB/s. Perfect for high-res recording.</p>
+                        <p><strong>₱1,800.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <!-- CART SECTION -->
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <table border="1" cellpadding="8" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sony Alpha A7 IV (Mirrorless)</td>
+                        <td>₱140,000.00</td>
+                        <td><input type="number" min="1" max="20" value="1"></td>
+                        <td>₱140,000.00</td>
+                        <td><button type="button">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Camera Backpack (Rugged Gear)</td>
+                        <td>₱4,500.00</td>
+                        <td><input type="number" min="1" max="20" value="2"></td>
+                        <td>₱9,000.00</td>
+                        <td><button type="button">X</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right"><strong>Total</strong></td>
+                        <td colspan="2"><strong>₱149,000.00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+            <hr>
+        </section>
+
+        <!-- CHECKOUT SECTION -->
+        <section id="checkout">
+            <h2>Checkout</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+                    <p>
+                        <label for="fullname">Full name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="customer@example.com" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="09XX-XXX-XXXX">
+                    </p>
+                    <p>
+                        <label for="address">Address:</label><br>
+                        <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+                    </p>
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" list="cities">
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="Manila">
+                            <option value="Cebu">
+                            <option value="Davao">
+                        </datalist>
+                    </p>
+                    <p>
+                        <label for="delivery-date">Delivery date:</label>
+                        <input type="date" id="delivery-date" name="delivery-date">
+                    </p>
+                    <p>
+                        <label for="delivery-option">Delivery option:</label>
+                        <select id="delivery-option" name="delivery-option">
+                            <option>Standard Delivery</option>
+                            <option>Express Shipping</option>
+                            <option>Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+                
+                <br>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+                    <p>
+                        <input type="radio" id="card" name="payment" value="Card" checked>
+                        <label for="card">Credit / Debit Card</label><br>
+                        
+                        <input type="radio" id="cod" name="payment" value="COD">
+                        <label for="cod">Cash on Delivery</label><br>
+                        
+                        <input type="radio" id="ewallet" name="payment" value="E-Wallet">
+                        <label for="ewallet">E-Wallet</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="gift" name="extras" value="Gift Wrap">
+                    <label for="gift">Gift wrap order</label><br>
+                    <input type="checkbox" id="receipt" name="extras" value="Include Receipt">
+                    <label for="receipt">Include paper receipt</label>
+                </p>
+                
+                <p>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#terms-info">Terms & Conditions</a></label>
+                </p>
+
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear Form</button>
+            </form>
+            <hr>
+        </section>
+
+        <!-- STORE LOCATION & REVIEWS -->
+        <section id="contact">
+            <h2>Visit Our Store</h2>
+            <a href="https://www.openstreetmap.org/?mlat=16.41&amp;mlon=120.59#map=15/16.41/120.59" target="_blank" rel="noopener">View larger map</a>
+            
+            <h3>Reach Us</h3>
+            <address>
+                <strong>SnapperX Flagship Store</strong><br>
+                General Luna Road, Baguio City, Philippines<br>
+                Phone: <a href="tel:0744423071">(074) 442-3071</a><br>
+                Email: <a href="mailto:support@snapperx.com">support@snapperx.com</a>
+            </address>
+
+            <h3>Leave a Review</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="rev-name">Name:</label>
+                    <input type="text" id="rev-name" name="rev-name" required>
+                </p>
+                <p>
+                    <label for="rating">Rating (1 to 5):</label>
+                    <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+                </p>
+                <p>
+                    <label for="review">Your Review:</label><br>
+                    <textarea id="review" name="review" rows="4" cols="40" required></textarea>
+                </p>
+                <p>
+                    <label for="photo">Upload a photo of your gear (optional):</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                </p>
+                <button type="submit">Submit Review</button>
+            </form>
+            <hr>
+        </section>
+
+        <!-- FOOTER/LINKS -->
+        <section id="links">
+            <h2>Links / Related Media</h2>
+            <ul>
+                <li><a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a></li>
+                <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener">SnapperX Facebook Page</a></li>
+                <li><a href="#top">Back to top</a></li>
+            </ul>
+        </section>
+
+        <section id="terms-info">
+            <h2>Terms & Conditions</h2>
+            <details>
+                <summary>Read the terms</summary>
+                <ol>
+                    <li>Returns for defective gear or cameras are accepted within 14 days of purchase with original receipt.</li>
+                    <li>Delivery times vary across region; tracking details provided.</li>
+                    <li>Payment verified upfront except for COD processing.</li>
+                </ol>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>
+            <a href="#">About Us</a> | 
+            <a href="#contact">Contact</a> | 
+            <a href="#terms-info">Shipping Policy</a> | 
+            <a href="#terms-info">Returns</a>
+        </p>
+        <p>&copy; Copyright 2026 SnapperX. All rights reserved.</p>
+    </footer>
+</body>
+</html>
